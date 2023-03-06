@@ -154,7 +154,6 @@ const saveMetadata = (_loadedImageObject) => {
 
 const writeMetaData = (_data) => {
   fs.writeFileSync(`${buildDir}/_metadata.json`, _data);
-  fs.writeFileSync(`${buildDir}/_metadata.txt`, _data);
 };
 
 const startCreating = async () => {
